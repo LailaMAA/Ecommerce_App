@@ -1,0 +1,23 @@
+# Set correct MIME types
+AddType application/javascript .js
+AddType application/x-javascript .js
+AddType text/javascript .js
+
+# Enable PHP error logging
+php_flag display_errors off
+php_value error_reporting E_ALL
+php_value error_log "c:/xampp/htdocs/Workspace/php_errors.log"
+
+# Set include path
+php_value include_path ".;C:\xampp\htdocs\Workspace;C:\xampp\php\PEAR"
+
+# Allow ServiceWorker to control pages
+<IfModule mod_headers.c>
+    Header set Service-Worker-Allowed "/"
+    Header set Access-Control-Allow-Origin "http://localhost"
+</IfModule>
+
+# Force HTTPS for ServiceWorker (if using SSL)
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^sw\.js$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
