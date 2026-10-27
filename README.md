@@ -1,8 +1,8 @@
-# E-Commerce Multimédia Maroc - Mini-projet Base de Données Multimédia
+# E-Commerce Multimédia Maroc - projet Base de Données Multimédia
 
 ## 📋 Description du Projet
 
-Ce projet est un site e-commerce complet développé en PHP avec des fonctionnalités avancées de sécurité et de gestion multimédia, adapté au marché marocain. Il respecte toutes les contraintes demandées dans le mini-projet de base de données multimédias.
+Ce projet est un site e-commerce complet développé en PHP avec des fonctionnalités avancées de sécurité et de gestion multimédia, adapté au marché marocain. Il respecte toutes les contraintes demandées dans le projet de base de données multimédias.
 
 ## 🇲🇦 Contexte Marocain
 
@@ -10,7 +10,6 @@ Ce projet est un site e-commerce complet développé en PHP avec des fonctionnal
 - **Fuseau horaire** : Africa/Casablanca
 - **Pays par défaut** : Maroc
 - **Livraison** : Partout au Maroc
-- **Contact** : Casablanca, Maroc
 
 ## ✨ Fonctionnalités Implémentées
 
@@ -273,18 +272,4 @@ Le site est entièrement responsive et s'adapte à tous les écrans :
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-## 👥 Auteurs
-
-- **Développeur Principal** : [Votre Nom]
-- **Projet** : Mini-projet Base de Données Multimédia
-
-## 📞 Support
-
-Pour toute question ou problème :
-- Email : contact@ecommerce-multimedia.com
-- Documentation : Voir les commentaires dans le code
-- Issues : Utiliser le système d'issues GitHub
-
 ---
-
-**Note** : Ce projet est un exemple éducatif et ne doit pas être utilisé en production sans audit de sécurité complet.
